@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="My Profile"/>
+        <item
+            android:id="@+id/orders"
+            android:icon="@drawable/ic_baseline_airport_shuttle_24"
+            android:title="Orders" />
+        <item
+            android:id="@+id/wallets"
+            android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+            android:title="Wallets" />
+
+        <item
+            android:id="@+id/chats"
+            android:title="Chats"
+            android:icon="@drawable/chat"/>
+
+        <item
+            android:id="@+id/coupans"
+            android:title="Coupans"
+            android:icon="@drawable/coupans"/>
+    </group>
+
+    <item android:title="Communication"/>
+
+    <group  android:checkableBehavior="single">
+        <item
+            android:title="Share"
+            android:id="@+id/share"
+            android:icon="@drawable/share"/>
+
+        <item
+            android:title="Send"
+            android:id="@+id/send"
+            android:icon="@drawable/send"/>
+    </group>
+
+
+</menu>

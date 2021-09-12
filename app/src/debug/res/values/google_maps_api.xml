@@ -1,0 +1,24 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=8B:C0:1B:D0:9C:51:78:BD:F8:94:60:1C:E9:83:99:5B:5D:19:91:4C%3Bcom.example.nevigationdraweractivity2
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    com.example.nevigationdraweractivity2
+
+    SHA-1 certificate fingerprint:
+    8B:C0:1B:D0:9C:51:78:BD:F8:94:60:1C:E9:83:99:5B:5D:19:91:4C
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyA7N79QZh3UlMk2lr3kba6cxlmWd6OYqos</string>
+</resources>
